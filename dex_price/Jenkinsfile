@@ -1,0 +1,53 @@
+pipeline {
+    agent any
+
+    environment {
+        // 定义环境变量，方便后续修改
+        DEPLOY_SERVER_IP = '192.168.161.31' // 部署目标服务器（目前和Jenkins在一台机器）
+        PROJECT_NAME = 'dex_price_monitor'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Checking out code...'
+                // Jenkins 会自动拉取触发 webhook 的那个分支
+                checkout scm
+            }
+        }
+
+        stage('Build & Test') {
+            steps {
+                echo 'Building Docker images...'
+                // 切换到 deploy 目录构建
+                dir('deploy') {
+                    // 确保有 docker 命令权限，如果报错可能需要 sudo 或者将 jenkins 用户加入 docker 组
+                    sh 'docker-compose build'
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying to production...'
+                dir('deploy') {
+                    // 停止旧服务并启动新服务
+                    // -d 后台运行
+                    sh 'docker-compose up -d'
+                    
+                    // 清理悬空镜像 (释放磁盘空间)
+                    sh 'docker image prune -f'
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build and Deployment Successful!'
+        }
+        failure {
+            echo 'Build Failed. Please check logs.'
+        }
+    }
+}

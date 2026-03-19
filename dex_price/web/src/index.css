@@ -1,0 +1,22 @@
+/* Ant Design 重置和基础样式 */
+@import 'antd/dist/reset.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data files (runtime generated)
+data/*.db
+data/*.json
+data/app_state.json
+
+# Config with secrets
+config/email.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.bak
+
+# Production Data & Logs (IMPORTANT)
+data/*
+!data/.gitkeep
+logs/
+*.log
+

@@ -1,0 +1,37 @@
+#多个交易计划都亏损严重，现在必须调整策略，重新开始。
+#1、及时止损。例子A：
+    Line   637: 2026-01-16 00:19:41 - services.trading_strategies.A - INFO - ✅ [A] 买入 CELINA: 市值=$398.7K, 花费=0.5 SOL, 余额=85.75 SOL
+	Line   742: 2026-01-16 00:21:17 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$413.8K | 倍数=1.04x | 盈亏=+3.8% | 剩余仓位=100%
+	Line   793: 2026-01-16 00:22:39 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$420.5K | 倍数=1.05x | 盈亏=+5.5% | 剩余仓位=100%
+	Line   844: 2026-01-16 00:24:11 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$414.6K | 倍数=1.04x | 盈亏=+4.0% | 剩余仓位=100%
+	Line   895: 2026-01-16 00:25:34 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$402.9K | 倍数=1.01x | 盈亏=+1.0% | 剩余仓位=100%
+	Line   946: 2026-01-16 00:26:55 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$401.2K | 倍数=1.01x | 盈亏=+0.6% | 剩余仓位=100%
+	Line   997: 2026-01-16 00:28:25 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$380.3K | 倍数=0.95x | 盈亏=-4.6% | 剩余仓位=100%
+	Line  1048: 2026-01-16 00:29:50 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$394.6K | 倍数=0.99x | 盈亏=-1.0% | 剩余仓位=100%
+	Line  1099: 2026-01-16 00:31:33 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$377.0K | 倍数=0.95x | 盈亏=-5.4% | 剩余仓位=100%
+	Line  1150: 2026-01-16 00:33:08 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$374.0K | 倍数=0.94x | 盈亏=-6.2% | 剩余仓位=100%
+	Line  1201: 2026-01-16 00:34:35 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$378.5K | 倍数=0.95x | 盈亏=-5.1% | 剩余仓位=100%
+	Line  1252: 2026-01-16 00:35:56 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$373.1K | 倍数=0.94x | 盈亏=-6.4% | 剩余仓位=100%
+	Line  1303: 2026-01-16 00:37:17 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$381.7K | 倍数=0.96x | 盈亏=-4.3% | 剩余仓位=100%
+	Line  1354: 2026-01-16 00:38:47 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$365.8K | 倍数=0.92x | 盈亏=-8.3% | 剩余仓位=100%
+	Line  1416: 2026-01-16 00:40:09 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$363.3K | 倍数=0.91x | 盈亏=-8.9% | 剩余仓位=100%
+	Line  1468: 2026-01-16 00:41:29 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$333.2K | 倍数=0.84x | 盈亏=-16.4% | 剩余仓位=100%
+	Line  1523: 2026-01-16 00:42:58 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$327.6K | 倍数=0.82x | 盈亏=-17.8% | 剩余仓位=100%
+	Line  1578: 2026-01-16 00:44:20 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$323.5K | 倍数=0.81x | 盈亏=-18.9% | 剩余仓位=100%
+	Line  1632: 2026-01-16 00:45:41 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$331.1K | 倍数=0.83x | 盈亏=-16.9% | 剩余仓位=100%
+	Line  1686: 2026-01-16 00:47:03 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$337.1K | 倍数=0.85x | 盈亏=-15.5% | 剩余仓位=100%
+	Line  1741: 2026-01-16 00:48:36 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$328.3K | 倍数=0.82x | 盈亏=-17.7% | 剩余仓位=100%
+	Line  1800: 2026-01-16 00:50:00 - services.trading_strategies.A - INFO -   📊 [A] CELINA: 买入市值=$398.7K → 当前=$328.3K | 倍数=0.82x | 盈亏=-17.7% | 剩余仓位=100%
+    买入后半小时内市值一直在跌，没有任何反弹迹象，最后止损。这种需要识别后立刻止损。初步规则（作用于所有交易策略）：1、买入半小时后检查，日志中记录的信息倍数<1的比例超过80%,立刻市价止损。2、如果持仓时间 > 60 分钟，且浮盈在 -10% 到 +10% 之间震荡，强制市价卖出
+
+2、设置移动止损。例子B：
+    Line  3039: 2026-01-16 01:19:13 - services.trading_strategies.A - INFO -   📊 [A] Tiktok: 买入市值=$195.4K → 当前=$379.3K | 倍数=1.94x | 盈亏=+94.1% | 剩余仓位=100%
+    Line 16261: 2026-01-16 05:19:34 - services.trading_strategies.A - INFO - ❌ [A] 止损 Tiktok: PNL=-0.2500 SOL (-50%), 余额=78.62 SOL
+    就差一点完成止盈，最后却亏损50%。初步规则（作用于所有交易策略）：买入后当市值上涨超过30%，则将止损线动态调整为买入市值；买入后市值上涨超过80%，则将止损线动态调整为1.5x买入市值。
+
+3、增加新交易策略，需要废除简单的 IF Heat > X THEN BUY 逻辑，代之以一个加权评分系统。只有当总分超过特定阈值（例如 80/100）时，才触发买入。
+    阿尔法评分模型公式建议：$$\text{AlphaScore} = (W_1 \cdot \text{WalletScore}) + (W_2 \cdot \text{TxnMomentum}) + (W_3 \cdot \text{LiqSafety}) + (W_4 \cdot \text{SocialHeat})$$
+    其中各项指标定义如下：WalletScore (30%权重):基于 24h_wallet_count（从HTML页面提取| 钱包数 | `ds-dex-table-row-col-makers` | `305` | 24小时交易钱包数 |）。逻辑：如果 active_wallets > 500, 得分满分；< 100, 得分 0（甚至直接否决）。目的：确保代币具有真实的社区基础，排除“鬼盘”。
+    TxnMomentum (30%权重):基于 txns (m5) 和 buys/sells ratio。逻辑：如果 txns_m5 > 100 且 buy_ratio > 1.5，得分高。目的：捕捉高频交易带来的真实上涨动能，过滤虚假成交量。
+    LiqSafety (20%权重):基于 Liquidity / MarketCap。逻辑：如果比率 > 15%，得分高；< 5%，扣分。目的：防止滑点过大和 Rug Pull 风险，确保资金进出自由。
+    SocialHeat (20%权重):保留原有的“热度”指标，但降级为辅助因子。逻辑：作为市场关注度的参考，但不作为唯一决策依据。

@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  # 后端服务 (Python FastAPI)
+  backend:
+    build:
+      context: ../
+      dockerfile: deploy/Dockerfile
+    container_name: dex_monitor_backend
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../data:/app/data
+      - ../data/logs:/app/data/logs
+    environment:
+      - ENV=production
+    networks:
+      - dex_network
+
+  # 前端服务 (React + Nginx)
+  frontend:
+    build:
+      context: ../web
+      dockerfile: ../deploy/web_Dockerfile
+    container_name: dex_monitor_frontend
+    restart: always
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - dex_network
+
+networks:
+  dex_network:
+    driver: bridge

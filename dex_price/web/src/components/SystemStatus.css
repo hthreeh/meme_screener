@@ -1,0 +1,20 @@
+/* 系统状态样式 - 白色主题 */
+.system-status {
+    display: flex;
+    align-items: center;
+}
+
+.api-quota {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 12px;
+    background: #f5f5f5;
+    border-radius: 16px;
+    border: 1px solid #e8e8e8;
+}
+
+.api-quota span {
+    font-size: 12px;
+    color: #666;
+}

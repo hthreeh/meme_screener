@@ -1,0 +1,31 @@
+/* 数据表格样式 - 白色主题 */
+.data-table {
+    /* margin-top: 16px; */
+}
+
+.data-table .ant-table-thead>tr>th {
+    background: #fafafa;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+}
+
+.data-table .ant-table-tbody>tr>td {
+    padding: 12px;
+}
+
+.token-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.token-symbol {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1890ff;
+}
+
+.row-stopped {
+    opacity: 0.5;
+    background: #fdfdfd;
+}
